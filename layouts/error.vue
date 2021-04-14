@@ -16,7 +16,7 @@
 </template>
 
 <script>
-// import AppLink from '~/components/elements/AppLink'
+// import AppLink from '@/components/elements/AppLink'
 
 export default {
   // components: { AppLink },

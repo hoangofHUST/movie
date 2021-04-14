@@ -16,18 +16,18 @@ export default {
       file: 'vi.json',
     },
   ],
-  defaultLocale: 'en',
+  defaultLocale: 'vi',
   lazy: true,
   langDir: 'locales/',
   vuex: { syncLocale: true },
   strategy: 'prefix_except_default',
   // differentDomains: process.env.NODE_ENV === 'production',
   parsePages: false,
-  pages: {
-    index: {
-      en: '/',
-      vi: '/trang-chu',
-    },
-  },
+  // pages: {
+  //   index: {
+  //     en: '/',
+  //     vi: '/trang-chu',
+  //   },
+  // },
   baseUrl: config.app.baseUrl,
 }

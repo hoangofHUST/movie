@@ -1,4 +1,4 @@
-import { defineNuxtConfig } from '@nuxtjs/composition-api'
+// import { defineNuxtConfig } from '@nuxtjs/composition-api'
 import config from './config'
 import routeTransition from './utils/routeTransition'
 import {
@@ -12,7 +12,7 @@ import {
   features,
 } from './nuxtConfig'
 
-export default defineNuxtConfig({
+export default {
   // https://nuxtjs.org/docs/2.x/configuration-glossary/configuration-ssr
   ssr: true,
 
@@ -32,7 +32,7 @@ export default defineNuxtConfig({
   globalName: config.nuxt.globalName,
 
   // https://nuxtjs.org/docs/2.x/configuration-glossary/configuration-watch
-  watch: ['~/config/*'],
+  watch: ['@/config/*'],
 
   // https://nuxtjs.org/docs/2.x/configuration-glossary/configuration-alias
   alias,
@@ -105,4 +105,4 @@ export default defineNuxtConfig({
   },
 
   privateRuntimeConfig: {},
-})
+}
