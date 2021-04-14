@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./*"],
+      "@/*": ["./*"],
+      "~~/*": ["./*"],
+      "@@/*": ["./*"],
+      "images": ["./assets/images/*"],
+      "icons": ["./assets/icons/*"],
+    }
+  },
+  "exclude": ["node_modules", ".nuxt", "dist"]
+}
