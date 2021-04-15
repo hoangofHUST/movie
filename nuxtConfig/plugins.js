@@ -1,1 +1,1 @@
-export default ['@/plugins/element-ui']
+export default ['@/plugins/element-ui', '@/plugins/youtubeEmbed.client']

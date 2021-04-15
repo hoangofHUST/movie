@@ -22,7 +22,7 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: colors.cyan,
+        primary: 'var(--color-primary)',
       },
     },
   },

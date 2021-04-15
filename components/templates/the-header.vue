@@ -13,7 +13,7 @@
         <span>|</span>
 
         <i class="el-icon-location-outline"></i>
-        <app-select-location></app-select-location>
+        <select-location></select-location>
       </section>
     </div>
   </header>
@@ -22,11 +22,11 @@
 <script>
 import useAuth from '@/composables/useAuth'
 import TheNav from '@/components/templates/the-nav'
-import AppSelectLocation from '~/components/blocks/app-select-location'
+import SelectLocation from '@/components/templates/select-location'
 
 export default {
   name: 'TheHeader',
-  components: { AppSelectLocation, TheNav },
+  components: { SelectLocation, TheNav },
   setup() {
     const { loggedIn } = useAuth()
 

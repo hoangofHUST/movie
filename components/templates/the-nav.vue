@@ -4,7 +4,7 @@
       v-for="item in items"
       :key="item.href"
       :href="item.href"
-      class="hover:text-primary-500 capitalize"
+      class="hover:text-primary capitalize"
     >
       {{ item.name }}
     </a>
