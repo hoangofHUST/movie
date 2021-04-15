@@ -27,7 +27,7 @@ import UsePlayVideo from '@/components/common/use-play-video'
 import films from '@/utils/films'
 
 export default {
-  name: 'Slideshow',
+  name: 'AppSlideshow',
   components: {
     UsePlayVideo,
     Swiper,

@@ -1,14 +1,14 @@
 <template>
   <div class="page-content">
-    <slideshow></slideshow>
+    <app-slideshow></app-slideshow>
   </div>
 </template>
 
 <script>
-import Slideshow from '@/components/pages/home/slideshow'
+import AppSlideshow from '@/components/blocks/app-slideshow'
 
 export default {
-  components: { Slideshow },
+  components: { AppSlideshow },
   methods: {},
 }
 </script>
