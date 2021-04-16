@@ -18,6 +18,8 @@
       <div slot="button-prev" class="swiper-button-prev"></div>
       <div slot="button-next" class="swiper-button-next"></div>
     </swiper>
+
+    <slot></slot>
   </section>
 </template>
 
@@ -60,22 +62,26 @@ $themeColor: #06b6d4 !default;
 </style>
 
 <style lang="scss" scoped>
-.swiper .swipe-slide {
+.slideshow {
   position: relative;
 
-  &:hover .btn-play {
-    display: block;
-  }
+  .swiper .swipe-slide {
+    position: relative;
 
-  .btn-play {
-    display: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    &:hover .btn-play {
+      display: block;
+    }
 
-    &:hover {
-      opacity: 0.7;
+    .btn-play {
+      display: none;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      &:hover {
+        opacity: 0.7;
+      }
     }
   }
 }

@@ -1,2 +1,12 @@
 @import './variables-element-ui.scss';
 @import '~element-ui/packages/theme-chalk/src/index.scss';
+
+.el-select {
+  .el-input__inner {
+    @apply pl-0 border-0 text-base;
+
+    &::placeholder {
+      color: $--color-text-primary;
+    }
+  }
+}
